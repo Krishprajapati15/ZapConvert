@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="/public//images//readmeimg.png" alt="ZapConvert Logo" width="180" />
+  <img src="/public//images//readmeimg.png" alt="ZapConvert Logo" width="700" />
   
   # ⚡ ZapConvert
 
