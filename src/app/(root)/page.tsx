@@ -28,7 +28,7 @@ const Home = () => {
               <FaImage className="text-blue-500 text-xl" />
               <div>
                 <h3 className="font-semibold text-gray-800">Image to Image</h3>
-                <p className="text-sm text-gray-500">PNG, JPG, WebP & more</p>
+                <p className="text-sm text-gray-500">PNG, JPG, WebP etc...</p>
               </div>
             </div>
 
@@ -69,7 +69,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="-mt-8 mb-4">
+      <div className="-mt-8 mb-6">
         <Dropzone />
       </div>
     </div>
