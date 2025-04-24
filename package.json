@@ -11,6 +11,7 @@
   "dependencies": {
     "@ffmpeg/ffmpeg": "^0.12.10",
     "@ffmpeg/util": "^0.12.1",
+    "@lottiefiles/dotlottie-react": "^0.13.4",
     "@nextui-org/react": "^2.2.9",
     "@radix-ui/react-select": "^2.0.0",
     "@radix-ui/react-slot": "^1.0.2",
@@ -25,6 +26,7 @@
     "react-dom": "^18",
     "react-dropzone": "^14.2.3",
     "react-icons": "^4.12.0",
+    "react-lottie": "^1.2.10",
     "tailwind-merge": "^2.2.0",
     "tailwindcss-animate": "^1.0.7"
   },

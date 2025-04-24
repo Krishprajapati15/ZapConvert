@@ -1,24 +1,37 @@
-import Dropzone from "@/components/Dropzone";
+"use client";
+
 import React from "react";
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+import Dropzone from "@/components/Dropzone";
 
 const Home = () => {
   return (
-    <div className="space-y-16 pb-8">
-      <div className="hero pt-12">
-        <div className="space-y-6">
-          <h1 className="text-3xl text-center font-bold leading-tight tracking-tighter md:text-5xl lg:leading-[1.1]">
-            Free Unlimited File Converter
+    <div className="space-y-4 pb-1">
+      {/* Hero Section */}
+      <div className="flex flex-col lg:flex-row items-center justify-between bg-white py-10 px-6 lg:px-20 rounded-xl">
+        {/* Left Section - Text */}
+        <div className="w-full lg:w-1/2 space-y-4 text-center lg:text-left">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight">
+            Your Ultimate Free File Converter
           </h1>
-
-          <p className="text-gray-400 text-md md:text-lg text-center md:px-24 xl:px-44 2xl:px-52">
-            Unleash your creativity with ConvertifyX – the ultimate online tool
-            for unlimited and free multimedia conversion. Transform images,
-            audio, and videos effortlessly, without restrictions. Start
-            converting now and elevate your content like never before!
+          <p className="text-md md:text-lg text-gray-600 max-w-lg mx-auto lg:mx-0">
+            Easily convert images, audio, and video files with no limits.
+            Simple. Fast. Free.
           </p>
+        </div>
+
+        {/* Right Section - Lottie Animation */}
+        <div className="w-full lg:w-1/2 mt-6 lg:mt-0 flex justify-center">
+          <DotLottieReact
+            src="https://lottie.host/696e3545-4d3b-415a-97bc-9c68761488aa/ZOPr92Tp2i.lottie"
+            loop
+            autoplay
+            style={{ height: "350px", width: "350px" }}
+          />
         </div>
       </div>
 
+      {/* Dropzone Section */}
       <Dropzone />
     </div>
   );
