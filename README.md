@@ -105,6 +105,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Made with ❤️ by [Krish Prajapati](https://github.com/Krishprajapati15)
 
-[Website](https://zapconvert.vercel.app) • [Report Bug](https://github.com/Krishprajapati15/ZapConvert/issues) • [Request Feature](https://github.com/Krishprajapati15/ZapConvert/issues)
 
 </div>
