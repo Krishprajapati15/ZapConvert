@@ -5,25 +5,26 @@ const AboutPage = () => {
     <>
       <div className="pb-6">
         <h1 className="text-2xl md:text-5xl font-bold leading-tight tracking-tighter">
-            About
+          About ZapConvert
         </h1>
       </div>
       <div className="space-y-12 text-md md:text-lg text-gray-500 pb-4 md:pb-8">
         <p>
-          Introducing ConvertifyX, the ultimate multimedia conversion powerhouse
-          that empowers you to transform images, audio files, and videos with
-          unprecedented freedom, all at absolutely no cost! Say goodbye to
-          limitations and hello to limitless creative possibilities.
+          Welcome to ZapConvert, the ultimate online tool for converting
+          multimedia files with ease and no restrictions. Whether you're a
+          content creator, professional, or enthusiast, ZapConvert offers
+          unlimited and free image, audio, and video conversion—helping you
+          unleash your creativity like never before.
         </p>
+
         <div className="space-y-2">
           <h2 className="text-xl md:text-2xl font-medium text-gray-700">
             🖼️ Image Conversion:
           </h2>
           <p>
-            Unleash your creativity with our image conversion tool. Whether you
-            need to resize, crop, rotate, or convert formats, we&apos;ve got you
-            covered. From JPEG to PNG, and everything in between, effortlessly
-            enhance your visual content.
+            Convert images effortlessly across multiple formats! Resize, crop,
+            rotate, and enhance your images with ease. Whether you're working
+            with PNG, JPEG, or other formats, ZapConvert has you covered.
           </p>
         </div>
 
@@ -32,10 +33,9 @@ const AboutPage = () => {
             🎵 Audio Transformation:
           </h2>
           <p>
-            Turn up the volume on your audio projects! With our audio conversion
-            capabilities, you can convert audio files between various formats
-            like MP3, WAV, or AAC. Adjust bitrates, trim, and merge audio files
-            to create your perfect soundtrack.
+            Turn your audio files into whatever format you need! From MP3 to WAV
+            or AAC, ZapConvert allows you to change file formats, adjust
+            bitrates, trim, merge, and customize your audio projects with ease.
           </p>
         </div>
 
@@ -44,9 +44,9 @@ const AboutPage = () => {
             🎥 Video Metamorphosis:
           </h2>
           <p>
-            Lights, camera, action! Edit and transcode videos without limits.
-            From changing video formats to cutting and merging clips, you can
-            create stunning video content for any platform or purpose.
+            Transform your videos to fit any platform or need. With ZapConvert,
+            you can convert video formats, trim, merge clips, and edit with
+            simple controls—perfect for creators and professionals alike.
           </p>
         </div>
 
@@ -55,10 +55,9 @@ const AboutPage = () => {
             🚀 Unlimited Usage, No Strings Attached:
           </h2>
           <p>
-            Unlike other services, we believe in empowering your creativity
-            without hidden fees or restrictions. You can convert as many images,
-            audio files, and videos as your heart desires, and it won&apos;t cost you
-            a dime.
+            ZapConvert is fully free and unlimited. No hidden fees or
+            restrictions—just pure creative freedom to convert as many files as
+            you want.
           </p>
         </div>
 
@@ -67,9 +66,9 @@ const AboutPage = () => {
             🌐 Accessible Anywhere:
           </h2>
           <p>
-            Access Convertify X from any device with an internet connection.
-            Whether you&apos;re on your computer, tablet, or smartphone, you can use
-            our platform with ease.
+            Access ZapConvert from any device with an internet connection.
+            Whether you're on your phone, tablet, or computer, you can convert
+            your files anytime, anywhere.
           </p>
         </div>
 
@@ -78,9 +77,8 @@ const AboutPage = () => {
             🔒 Secure and Private:
           </h2>
           <p>
-            Rest easy knowing that your multimedia files are treated with the
-            utmost care. We prioritize your privacy and data security, ensuring
-            that your files remain yours alone.
+            We take your privacy and security seriously. Rest assured that your
+            files remain confidential, with full control over your data.
           </p>
         </div>
 
@@ -89,9 +87,9 @@ const AboutPage = () => {
             💡 User-Friendly Interface:
           </h2>
           <p>
-            Our intuitive interface is designed for both beginners and experts,
-            making the conversion process a breeze. No technical expertise
-            required!
+            No technical skills needed! ZapConvert is designed with an intuitive
+            interface to ensure that both beginners and pros can convert files
+            with minimal effort.
           </p>
         </div>
 
@@ -100,27 +98,26 @@ const AboutPage = () => {
             📈 Constantly Evolving:
           </h2>
           <p>
-            We&apos;re committed to staying ahead of the curve. Expect regular
-            updates and new features to keep your multimedia experience fresh
-            and exciting.
+            ZapConvert is constantly evolving with regular updates and new
+            features to improve your multimedia experience.
           </p>
         </div>
 
         <div className="space-y-2">
           <h2 className="text-xl md:text-2xl font-medium text-gray-700">
-            🌟 It&apos;s Free, It&apos;s Powerful, It&apos;s ConvertifyX:
+            🌟 It’s Free, It’s Powerful, It’s ZapConvert:
           </h2>
           <p>
-            Experience the freedom to convert images, audio, and video without
-            boundaries. Elevate your multimedia projects with the unlimited
-            potential of ConvertifyX.
+            Experience a world of unlimited multimedia conversion at your
+            fingertips. ZapConvert is designed to empower your creative projects
+            without limitations.
           </p>
         </div>
 
         <p>
-          Join the revolution of content creators, professionals, and
-          enthusiasts who are transforming the way they work with multimedia.
-          Get started today and let your creativity shine like never before!
+          Join the thousands of creators, professionals, and hobbyists who trust
+          ZapConvert to transform their media. Start converting today and bring
+          your vision to life with unlimited freedom!
         </p>
       </div>
     </>

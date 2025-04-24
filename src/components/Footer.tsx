@@ -3,40 +3,46 @@ import { FaInstagram, FaGithub, FaHeart } from "react-icons/fa";
 
 export function SiteFooter() {
   return (
-    <footer className="border-t bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex flex-col items-center justify-between gap-4 py-8 md:h-24 md:flex-row md:py-0">
-        <div className="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
-          <p className="text-center text-sm leading-loose text-muted-foreground md:text-left">
-            Built with{" "}
-            <FaHeart className="mx-1 inline-block h-4 w-4 animate-pulse text-red-500" />{" "}
+    <footer className="bg-gradient-to-r from-[#e0f2ff] to-[#f3e8ff] text-gray-800 border-t shadow-inner">
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between py-8 px-4 md:px-8 gap-6">
+        {/* Left Side - Built by */}
+        <div className="text-center md:text-left">
+          <p className="text-sm font-medium">
+            Made with{" "}
+            <FaHeart className="inline-block text-red-500 animate-pulse mx-1" />{" "}
             by{" "}
             <Link
               href="https://www.krishprajapati.tech/"
               target="_blank"
-              className="font-medium underline underline-offset-4 hover:text-primary transition-colors"
+              className="bg-gradient-to-r from-indigo-500 to-pink-500 bg-clip-text text-transparent font-semibold hover:underline"
             >
               Krish Prajapati
             </Link>
           </p>
         </div>
-        <div className="flex items-center justify-center space-x-6">
+
+        {/* Right Side - Social Icons */}
+        <div className="flex gap-6">
           <Link
             href="https://github.com/Krishprajapati15"
             target="_blank"
-            className="rounded-full p-2 transition-all hover:bg-accent hover:scale-110"
+            className="p-3 rounded-full bg-white shadow-md hover:shadow-xl hover:scale-110 transition-all group"
           >
-            <FaGithub className="h-5 w-5 text-foreground/60 hover:text-foreground" />
-            <span className="sr-only">GitHub</span>
+            <FaGithub className="h-6 w-6 text-gray-700 group-hover:text-black" />
           </Link>
           <Link
             href="https://www.instagram.com/krish._prajapati"
             target="_blank"
-            className="rounded-full p-2 transition-all hover:bg-accent hover:scale-110"
+            className="p-3 rounded-full bg-white shadow-md hover:shadow-xl hover:scale-110 transition-all group"
           >
-            <FaInstagram className="h-5 w-5 text-foreground/60 hover:text-pink-500" />
-            <span className="sr-only">Instagram</span>
+            <FaInstagram className="h-6 w-6 text-pink-500 group-hover:text-pink-600" />
           </Link>
         </div>
+      </div>
+
+      {/* Bottom Name Section */}
+      <div className="text-center text-xs py-2 bg-white/80 text-gray-600 border-t mt-2">
+        © {new Date().getFullYear()} — Crafted by Krish Prajapati 🧠✨
       </div>
     </footer>
   );

@@ -9,14 +9,11 @@ import { SiteFooter } from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "ConvertifyX - Free Unlimited File Converter",
-  description: `Unleash your creativity with ConvertifyX – the ultimate online tool for
-  unlimited and free multimedia conversion. Transform images, audio, and
-  videos effortlessly, without restrictions. Start converting now and
-  elevate your content like never before!`,
-  creator: "Muhammad Zain-ul-Abdin, SOUHAIL BEN-LHACHEMI",
+  title: "ZapConvert - Free Unlimited File Converter",
+  description: `Transform your files effortlessly with ZapConvert – the ultimate online tool for unlimited and free multimedia conversion. From images to audio to videos, we make file conversion seamless. Start converting today!`,
+  creator: "Krish Prajapati",
   keywords:
-    "image converter, video converter, audio converter, unlimited image converter, unlimited video converter",
+    "file converter, image converter, video converter, audio converter, free file conversion, unlimited file converter",
 };
 
 export default function RootLayout({

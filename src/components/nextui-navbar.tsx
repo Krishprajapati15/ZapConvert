@@ -15,7 +15,7 @@ import Link from "next/link";
 import { FiGithub } from "react-icons/fi";
 import { usePathname } from "next/navigation";
 
-export default function NeoNav() {
+export default function CleanContrastNavbar() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const pathname = usePathname();
 
@@ -27,36 +27,31 @@ export default function NeoNav() {
 
   return (
     <Navbar
-      maxWidth="xl"
       onMenuOpenChange={setIsMenuOpen}
-      className="bg-white/10 backdrop-blur-lg border-b border-white/10 shadow-lg h-20 rounded-b-xl mx-auto mt-2"
+      className="bg-gradient-to-r from-[#e0f2ff] to-[#f3e8ff] text-gray-800 shadow-md border-b h-20"
       isBordered
     >
       <NavbarContent className="gap-4">
-        <NavbarMenuToggle
-          aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className="sm:hidden text-white"
-        />
+        <NavbarMenuToggle className="sm:hidden text-gray-700" />
         <NavbarBrand>
           <Link
             href="/"
-            className="text-3xl font-extrabold tracking-wide bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent"
+            className="text-2xl font-extrabold tracking-wider bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent"
           >
-            Neo<span className="text-white">Convert</span>
+            ZapConvert
           </Link>
         </NavbarBrand>
       </NavbarContent>
 
-      {/* Desktop Menu */}
       <NavbarContent justify="center" className="hidden sm:flex gap-6">
         {links.map((link) => (
-          <NavbarItem key={link.href} isActive={pathname === link.href}>
+          <NavbarItem key={link.href}>
             <Link
               href={link.href}
-              className={`text-sm font-semibold px-4 py-2 rounded-full transition-all ${
+              className={`px-4 py-2 rounded-lg font-medium text-sm transition-all ${
                 pathname === link.href
-                  ? "bg-gradient-to-r from-purple-500 to-pink-500 text-white shadow-md"
-                  : "text-white hover:bg-white/10"
+                  ? "bg-indigo-300/80 text-indigo-700 shadow-sm"
+                  : "hover:bg-indigo-50 text-gray-700"
               }`}
             >
               {link.label}
@@ -65,14 +60,12 @@ export default function NeoNav() {
         ))}
       </NavbarContent>
 
-      {/* GitHub CTA */}
       <NavbarContent justify="end">
         <NavbarItem>
           <Link href="https://github.com/krishprajapati15" target="_blank">
             <Button
               startContent={<FiGithub />}
-              className="bg-gradient-to-tr from-purple-600 to-pink-500 text-white shadow-lg hover:scale-105 transition-all"
-              radius="full"
+              className="bg-gradient-to-tr rounded-lg from-indigo-500 to-purple-500 text-white hover:shadow-xl transition-all"
               size="sm"
             >
               GitHub
@@ -81,14 +74,15 @@ export default function NeoNav() {
         </NavbarItem>
       </NavbarContent>
 
-      {/* Mobile Menu */}
-      <NavbarMenu className="mt-6 space-y-4 text-white bg-black/80 rounded-xl p-6">
+      <NavbarMenu className="bg-white/90 text-gray-800 mt-4 rounded-xl px-6 py-4 shadow-lg">
         {links.map((link) => (
           <NavbarMenuItem key={link.href}>
             <Link
               href={link.href}
               className={`text-md font-medium ${
-                pathname === link.href ? "text-pink-500" : "text-white/80"
+                pathname === link.href
+                  ? "text-indigo-600"
+                  : "hover:text-purple-600"
               }`}
             >
               {link.label}

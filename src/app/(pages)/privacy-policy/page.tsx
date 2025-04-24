@@ -9,9 +9,9 @@ const PrivacyPolicyPage = () => {
         </h1>
       </div>
       <div className="space-y-12 text-md md:text-lg text-gray-500 pb-4 md:pb-8">
-        <p>Effective Date: Wed 6 Sep 2023</p>
+        <p>Effective Date: 24 April 2025</p>
         <p>
-          At ConvertifyX, we are committed to safeguarding your privacy. This
+          At ZapConvert, we are committed to safeguarding your privacy. This
           Privacy Policy outlines our practices regarding the collection, use,
           and disclosure of personal information when you use our website and
           services. Please read this policy carefully to understand how we
@@ -114,14 +114,14 @@ const PrivacyPolicyPage = () => {
           <p>
             If you have any questions or concerns about this Privacy Policy or
             the data we collect, please contact us at
-            muhammadzainulabdinansari@gmail.com.
+            prajapatikrish132005@gmail.com.
           </p>
         </div>
 
         <p>
-          By using XX, you agree to the practices outlined in this Privacy
-          Policy. Please discontinue use of our services if you do not agree
-          with this policy. Thank you for trusting us with your privacy.
+          By using ZapConvert, you agree to the practices outlined in this
+          Privacy Policy. Please discontinue use of our services if you do not
+          agree with this policy. Thank you for trusting us with your privacy.
         </p>
       </div>
     </>
