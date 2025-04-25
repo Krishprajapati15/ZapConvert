@@ -11,7 +11,7 @@ const AboutPage = () => {
       <div className="space-y-12 text-md md:text-lg text-gray-500 pb-4 md:pb-8">
         <p>
           Welcome to ZapConvert, the ultimate online tool for converting
-          multimedia files with ease and no restrictions. Whether you're a
+          multimedia files with ease and no restrictions. Whether you&apos;re a
           content creator, professional, or enthusiast, ZapConvert offers
           unlimited and free image, audio, and video conversion—helping you
           unleash your creativity like never before.
@@ -23,8 +23,9 @@ const AboutPage = () => {
           </h2>
           <p>
             Convert images effortlessly across multiple formats! Resize, crop,
-            rotate, and enhance your images with ease. Whether you're working
-            with PNG, JPEG, or other formats, ZapConvert has you covered.
+            rotate, and enhance your images with ease. Whether you&apos;re
+            working with PNG, JPEG, or other formats, ZapConvert has you
+            covered.
           </p>
         </div>
 
@@ -67,8 +68,8 @@ const AboutPage = () => {
           </h2>
           <p>
             Access ZapConvert from any device with an internet connection.
-            Whether you're on your phone, tablet, or computer, you can convert
-            your files anytime, anywhere.
+            Whether you&apos;re on your phone, tablet, or computer, you can
+            convert your files anytime, anywhere.
           </p>
         </div>
 
@@ -105,7 +106,7 @@ const AboutPage = () => {
 
         <div className="space-y-2">
           <h2 className="text-xl md:text-2xl font-medium text-gray-700">
-            🌟 It’s Free, It’s Powerful, It’s ZapConvert:
+            🌟 It&apos;s Free, It&apos;s Powerful, It&apos;s ZapConvert:
           </h2>
           <p>
             Experience a world of unlimited multimedia conversion at your
