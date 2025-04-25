@@ -38,7 +38,6 @@ export function SiteFooter() {
         </div>
       </div>
 
-      {/* Bottom Name Section */}
       <div className="text-center text-xs py-2 bg-white/80 text-gray-600 border-t mt-2">
         © {new Date().getFullYear()} Crafted by Krish Prajapati 🧠✨
       </div>

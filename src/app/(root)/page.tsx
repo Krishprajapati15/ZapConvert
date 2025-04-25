@@ -9,7 +9,6 @@ import Dropzone from "@/components/Dropzone";
 const Home = () => {
   return (
     <div className="pb-2 -mt-40">
-      {/* Hero Section */}
       <div className="flex flex-col lg:flex-row items-center justify-between bg-white px-4 lg:px-2 py-6 lg:py-10 rounded-xl space-y-6 lg:space-y-0">
         {/* Left - Text & Features */}
         <div className="w-full lg:w-1/2 space-y-5">
