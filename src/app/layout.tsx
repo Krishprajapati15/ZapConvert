@@ -14,6 +14,9 @@ export const metadata: Metadata = {
   creator: "Krish Prajapati",
   keywords:
     "file converter, image converter, video converter, audio converter, free file conversion, unlimited file converter",
+  icons: {
+    icon: "./favicon.ico",
+  },
 };
 
 export default function RootLayout({
