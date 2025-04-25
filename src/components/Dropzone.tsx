@@ -145,11 +145,10 @@ const Dropzone = () => {
   };
 
   const updateAction = (file_name: String, to: String) => {
-
     setActions(
       actions.map((action): Action => {
         // console.log(action.file_name);
-        
+
         if (action.file_name === file_name) {
           console.log("FOUND");
           return {
@@ -299,7 +298,6 @@ const Dropzone = () => {
                 <span>Convert to</span>
                 <Select
                   onValueChange={(value) => {
-
                     if (extensions.audio.includes(value)) {
                       setDefaultValues("audio");
                     } else if (extensions.video.includes(value)) {
@@ -437,7 +435,6 @@ const Dropzone = () => {
       onDragEnter={handleHover}
       onDragLeave={handleExitHover}
       accept={accepted_files}
-      // if drop rejected
       onDropRejected={() => {
         handleExitHover();
         toast({
