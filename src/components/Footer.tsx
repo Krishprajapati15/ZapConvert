@@ -20,7 +20,6 @@ export function SiteFooter() {
           </p>
         </div>
 
-        {/* Right Side - Social Icons */}
         <div className="flex gap-6">
           <Link
             href="https://github.com/Krishprajapati15"
