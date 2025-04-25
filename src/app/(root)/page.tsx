@@ -58,7 +58,7 @@ const Home = () => {
         </div>
 
         <div className="w-full lg:w-1/2 flex justify-center">
-          <div className="h-auto w-full max-w-[650px] sm:max-w-[750px] md:max-w-[800px] min-h-[400px]">
+          <div className="h-auto w-full max-w-[650px] sm:max-w-[750px] md:max-w-[800px] min-h-[200px] sm:min-h-[300px] md:min-h-[400px]">
             <DotLottieReact
               src="https://lottie.host/696e3545-4d3b-415a-97bc-9c68761488aa/ZOPr92Tp2i.lottie"
               loop
