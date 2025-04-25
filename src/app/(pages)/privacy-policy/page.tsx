@@ -3,8 +3,8 @@ import React from "react";
 const PrivacyPolicyPage = () => {
   return (
     <>
-      <div className="pb-6">
-        <h1 className="text-2xl md:text-5xl font-bold leading-tight tracking-tighter">
+      <div className="pb-6 -mt-4">
+        <h1 className="text-2xl md:text-5xl  font-bold leading-tight tracking-tighter">
           Privacy Policy
         </h1>
       </div>

@@ -267,10 +267,14 @@ const Dropzone = () => {
               </span>
 
               <div className="flex items-center gap-1 w-96">
-                <span className="text-md font-medium overflow-x-hidden">
-                  {compressFileName(action.file_name)}
+                <span
+                  title={action.file_name}
+                  className="text-md font-medium overflow-hidden text-ellipsis whitespace-nowrap max-w-[180px] sm:max-w-[250px] md:max-w-[350px] lg:max-w-[500px]"
+                >
+                  {action.file_name}
                 </span>
-                <span className="text-gray-400 text-sm">
+
+                <span className="text-gray-400 text-sm whitespace-nowrap sm:ml-1">
                   ({bytesToSize(action.file_size)})
                 </span>
               </div>
