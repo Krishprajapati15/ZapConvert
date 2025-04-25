@@ -444,7 +444,6 @@ const Dropzone = () => {
           duration: 5000,
         });
       }}
-      // handle error
       onError={() => {
         handleExitHover();
         toast({
