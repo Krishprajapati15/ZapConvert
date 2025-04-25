@@ -55,7 +55,6 @@ const Home = () => {
           </div>
         </div>
 
-        {/* Right - Lottie */}
         <div className="w-full lg:w-1/2 flex justify-center">
           <DotLottieReact
             src="https://lottie.host/696e3545-4d3b-415a-97bc-9c68761488aa/ZOPr92Tp2i.lottie"
