@@ -10,7 +10,6 @@ const Home = () => {
   return (
     <div className="pb-2 -mt-40">
       <div className="flex flex-col lg:flex-row items-center justify-between bg-white px-4 lg:px-2 py-6 lg:py-10 rounded-xl space-y-6 lg:space-y-0">
-        {/* Left - Text & Features */}
         <div className="w-full lg:w-1/2 space-y-5">
           <h1 className="text-3xl md:text-5xl font-extrabold bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500 bg-clip-text text-transparent">
             Convert Files Effortlessly and Free
@@ -21,7 +20,6 @@ const Home = () => {
             we’ll handle the rest!
           </p>
 
-          {/* Features / Stats */}
           <div className="grid grid-cols-2 gap-4 pt-2 max-w-md">
             <div className="flex items-center gap-3 bg-blue-50 p-4 rounded-lg shadow-sm">
               <FaImage className="text-blue-500 text-xl" />
