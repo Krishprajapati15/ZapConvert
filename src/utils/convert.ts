@@ -30,7 +30,7 @@ export default async function convert(
   ffmpeg.writeFile(input, await fetchFile(file));
 
   let ffmpeg_cmd: any = [];
-  // 3gp video
+
   if (to === "3gp")
     ffmpeg_cmd = [
       "-i",
@@ -55,7 +55,6 @@ export default async function convert(
     ];
   else ffmpeg_cmd = ["-i", input, output];
 
-  // execute cmd
   await ffmpeg.exec(ffmpeg_cmd);
 
   const data = (await ffmpeg.readFile(output)) as any;
