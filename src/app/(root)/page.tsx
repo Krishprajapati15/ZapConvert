@@ -8,7 +8,7 @@ import Dropzone from "@/components/Dropzone";
 
 const Home = () => {
   return (
-    <div className="pb-2 -mt-40">
+    <div className="pb-2 -mt-48">
       <div className="flex flex-col lg:flex-row items-center justify-between bg-white px-4 lg:px-2 py-6 lg:py-10 rounded-xl space-y-6 lg:space-y-0">
         <div className="w-full lg:w-1/2 space-y-5">
           <h1 className="text-3xl md:text-5xl font-extrabold bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500 bg-clip-text text-transparent">
@@ -60,7 +60,7 @@ const Home = () => {
             src="https://lottie.host/696e3545-4d3b-415a-97bc-9c68761488aa/ZOPr92Tp2i.lottie"
             loop
             autoplay
-            style={{ height: "600px", width: "600px" }}
+            style={{ height: "700px", width: "600px" }}
           />
         </div>
       </div>
