@@ -5,7 +5,6 @@ export function SiteFooter() {
   return (
     <footer className="bg-gradient-to-r from-[#e0f2ff] to-[#f3e8ff] text-gray-800 border-t shadow-inner">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between py-8 px-4 md:px-8 gap-6">
-        {/* Left Side - Built by */}
         <div className="text-center md:text-left">
           <p className="text-sm font-medium">
             Made with{" "}
