@@ -13,11 +13,12 @@ import {
 } from "@nextui-org/react";
 import Link from "next/link";
 import { FiGithub } from "react-icons/fi";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 
 export default function CleanContrastNavbar() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const pathname = usePathname();
+  const router = useRouter();
 
   const links = [
     { label: "Home", href: "/" },
@@ -25,14 +26,26 @@ export default function CleanContrastNavbar() {
     { label: "Privacy", href: "/privacy-policy" },
   ];
 
+  const handleMobileLinkClick = (href: string) => {
+    setIsMenuOpen(false); // Close the mobile menu first
+    setTimeout(() => {
+      router.push(href); // Navigate after slight delay
+    }, 100); // Small timeout to ensure menu closes first
+  };
+
   return (
     <Navbar
+      isMenuOpen={isMenuOpen}
       onMenuOpenChange={setIsMenuOpen}
       className="bg-gradient-to-r from-[#e0f2ff] to-[#f3e8ff] text-gray-800 shadow-md border-b h-20"
       isBordered
     >
+      {/* Left side */}
       <NavbarContent className="gap-4">
-        <NavbarMenuToggle className="sm:hidden text-gray-700" />
+        <NavbarMenuToggle
+          aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+          className="sm:hidden text-gray-700"
+        />
         <NavbarBrand>
           <Link
             href="/"
@@ -43,6 +56,7 @@ export default function CleanContrastNavbar() {
         </NavbarBrand>
       </NavbarContent>
 
+      {/* Center Links for Desktop */}
       <NavbarContent justify="center" className="hidden sm:flex gap-6">
         {links.map((link) => (
           <NavbarItem key={link.href}>
@@ -60,6 +74,7 @@ export default function CleanContrastNavbar() {
         ))}
       </NavbarContent>
 
+      {/* Right side GitHub Button */}
       <NavbarContent justify="end">
         <NavbarItem>
           <Link href="https://github.com/krishprajapati15" target="_blank">
@@ -74,19 +89,20 @@ export default function CleanContrastNavbar() {
         </NavbarItem>
       </NavbarContent>
 
+      {/* Mobile Menu */}
       <NavbarMenu className="bg-white/90 text-gray-800 mt-4 rounded-xl px-6 py-4 shadow-lg">
         {links.map((link) => (
           <NavbarMenuItem key={link.href}>
-            <Link
-              href={link.href}
-              className={`text-md font-medium ${
+            <button
+              onClick={() => handleMobileLinkClick(link.href)}
+              className={`w-full text-left text-md font-medium ${
                 pathname === link.href
                   ? "text-indigo-600"
                   : "hover:text-purple-600"
               }`}
             >
               {link.label}
-            </Link>
+            </button>
           </NavbarMenuItem>
         ))}
       </NavbarMenu>
