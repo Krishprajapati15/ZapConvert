@@ -8,7 +8,7 @@
   </p>
 
   <p align="center">
-    <a href="https://zapconvert.vercel.app" target="_blank">
+    <a href="https://zapconvert.me" target="_blank">
       <img src="https://img.shields.io/badge/Visit-ZapConvert-blue?style=for-the-badge&logo=vercel" alt="Visit Website" />
     </a>
   </p>
@@ -58,7 +58,7 @@ Our interface prioritizes user experience with:
 
 ## 🚀 Getting Started
 
-1. Visit [ZapConvert](https://zapconvert.vercel.app)
+1. Visit [ZapConvert](https://zapconvert.me)
 2. Choose your file type (Image/Audio/Video)
 3. Upload your file by dragging or clicking
 4. Select your desired output format
