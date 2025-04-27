@@ -10,7 +10,6 @@ import { HiOutlineDownload } from "react-icons/hi";
 import React, { useState, useEffect, useRef } from "react";
 import { FFmpeg } from "@ffmpeg/ffmpeg";
 
-// ui components
 import { Skeleton } from "@/components/ui/skeleton";
 import { toast } from "@/components/ui/use-toast";
 import { Badge } from "@/components/ui/badge";
