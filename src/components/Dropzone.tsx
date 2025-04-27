@@ -299,7 +299,6 @@ const Dropzone = () => {
 
                     updateAction(action.file_name, value);
                   }}
-                  // value={selected}
                 >
                   <SelectTrigger className="w-32 outline-none focus:outline-none focus:ring-0 text-center text-gray-600 bg-gray-50 text-md font-medium">
                     <SelectValue placeholder="..." />
