@@ -122,7 +122,6 @@ const Dropzone = () => {
     setFiles(files.filter((elt) => elt.name !== action.file_name));
   };
 
-  // console.log(actions);
   const download = (action: Action) => {
     const a = document.createElement("a");
     a.style.display = "none";
