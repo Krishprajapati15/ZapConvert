@@ -131,7 +131,6 @@ const Dropzone = () => {
     document.body.appendChild(a);
     a.click();
 
-    // Clean up after download
     URL.revokeObjectURL(action.url);
     document.body.removeChild(a);
   };
