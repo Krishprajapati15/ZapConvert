@@ -80,7 +80,6 @@ const Dropzone = () => {
   const [isCoverting, setIsConverting] = useState<boolean>(false);
   const [isReady, setIsReady] = useState<boolean>(false);
 
-  // functions
   const reset = () => {
     setIsDone(false);
     setActions([]);
