@@ -98,7 +98,6 @@ const Dropzone = () => {
     handleExitHover();
     setFiles(data);
 
-    // create temporary file
     const tmp: Action[] = [];
     data.forEach((file: any) => {
       const formData = new FormData();
