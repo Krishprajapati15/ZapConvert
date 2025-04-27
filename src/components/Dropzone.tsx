@@ -32,7 +32,6 @@ import convertFile from "@/utils/convert";
 import ReactDropzone from "react-dropzone";
 import loadFfmpeg from "@/utils/load-ffmpeg";
 
-// file extensions
 const extensions = {
   image: [
     "jpg",
