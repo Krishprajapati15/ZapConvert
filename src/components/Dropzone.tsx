@@ -138,8 +138,6 @@ const Dropzone = () => {
   const updateAction = (file_name: String, to: String) => {
     setActions(
       actions.map((action): Action => {
-        // console.log(action.file_name);
-
         if (action.file_name === file_name) {
           console.log("FOUND");
           return {
