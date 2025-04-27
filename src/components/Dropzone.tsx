@@ -1,6 +1,5 @@
 "use client";
 
-// icons
 import { IoCloudUploadOutline } from "react-icons/io5";
 import { MdClose, MdDone } from "react-icons/md";
 import { BiError } from "react-icons/bi";
