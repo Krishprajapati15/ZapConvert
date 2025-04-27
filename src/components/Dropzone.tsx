@@ -25,7 +25,6 @@ import {
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Button } from "@/components/ui/button";
 
-// utils
 import fileToIcon from "@/utils/file-to-icon";
 import compressFileName from "@/utils/compress-filename";
 import bytesToSize from "@/utils/byte-to-size";
