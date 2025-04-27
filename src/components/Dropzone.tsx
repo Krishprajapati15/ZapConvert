@@ -296,7 +296,7 @@ const Dropzone = () => {
                     } else if (extensions.video.includes(value)) {
                       setDefaultValues("video");
                     }
-                    // setSelected(value);
+
                     updateAction(action.file_name, value);
                   }}
                   // value={selected}
