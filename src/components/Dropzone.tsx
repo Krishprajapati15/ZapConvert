@@ -14,7 +14,6 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { toast } from "@/components/ui/use-toast";
 import { Badge } from "@/components/ui/badge";
 
-// types
 import { Action } from "@/app/types";
 import {
   Select,
