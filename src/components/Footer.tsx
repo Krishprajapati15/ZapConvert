@@ -15,7 +15,7 @@ export function SiteFooter() {
               target="_blank"
               className="bg-gradient-to-r from-indigo-500 to-pink-500 bg-clip-text text-transparent font-semibold hover:underline"
             >
-              Krish Prajapat
+              Krish Prajapati
             </Link>
           </p>
         </div>
