@@ -18,7 +18,7 @@
 
 ZapConvert is a **modern web application** that allows users to convert various media formats without any software installation or account creation. Built with performance and simplicity in mind, it supports a wide range of file types and provides instant conversions right in your browser.
 
-> Convert images, audio, and video files with just a few clicks!
+> Convert images, audio, and video files with just a few clicks
 
 ## 🎯 Key Features
 
